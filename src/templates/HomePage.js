@@ -2,17 +2,12 @@ import React from 'react'
 
 import PageHeader from '../components/PageHeader'
 
+import './HomePage.scss'
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section">
+    <section className="section--1">
       <div className="container">test</div>
     </section>
   </main>
