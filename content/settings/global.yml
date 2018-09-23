@@ -1,8 +1,7 @@
-siteTitle: Whitesmoke
+siteTitle: Evie App
 siteUrl: 'https://whitesmoke.netlify.com'
 siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby Netlify
-  CMS.
+  Feel the best way you can by bringing Evie's healthy lifestyle approach to your daily life.
 socialMediaCard:
   image: /images/uploads/card-og.png
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
