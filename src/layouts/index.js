@@ -15,7 +15,11 @@ export default ({ children, data }) => {
   return (
     <Fragment>
       <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
-        {/* Add font link tags here */}
+        <link
+          href="https://fonts.googleapis.com/css?family=Quicksand:500,700"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://use.typekit.net/ekv6pwy.css" />
       </Helmet>
 
       <Meta
