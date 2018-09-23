@@ -7,9 +7,7 @@ import './HomePage.scss'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <section className="section--1">
-      <div className="container">test</div>
-    </section>
+    <section className="section--1" />
   </main>
 )
 
