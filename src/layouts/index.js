@@ -35,7 +35,7 @@ export default ({ children, data }) => {
 
       <Fragment>{children()}</Fragment>
 
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   )
 }
