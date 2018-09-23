@@ -7,7 +7,15 @@ import './HomePage.scss'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <section className="section--1" />
+    <section className="section--1">
+      <div className="container">
+        <h1>Find your Happy Place with Evie app</h1>
+        <p>
+          Feel the best way you can by bringing Evie healthy lifestyle approach
+          to your daily life.
+        </p>
+      </div>
+    </section>
   </main>
 )
 
